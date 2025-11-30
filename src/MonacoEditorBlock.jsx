@@ -15,7 +15,7 @@ export default function MonacoEditorBlock({ code, onChange, language }) {
   }
 
   return (
-    <div className="flex flex-col items-start gap-4 p-4 bg-white shadow-lg rounded-xl border border-slate-200 w-[600px]">
+    <div className="flex flex-col items-start p-4 bg-white shadow-lg rounded-xl border border-slate-200 w-[600px]">
 
       <div className="flex justify-between items-center w-full">
         <h2 className="text-lg font-semibold text-slate-700">
